@@ -1,0 +1,671 @@
+/* Global settings/styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/* Header styling */
+
+.main-h {
+    background-color: #ff6752;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    height: 3.5rem;
+    width: 3.5rem;
+    margin: 0rem 0rem 0rem 3rem;
+    background-image: url(../img/logo-white.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-container {
+    width: 40%;
+}
+
+.nav-container ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0rem 3rem 0rem 0rem;
+}
+
+.nav-container li {
+    list-style: none;
+    font-size: 1rem;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Main section styling */
+
+.main-s {
+    width: 100%;
+    background-color: #ff6752;
+    height: 60vh;
+    position: relative;
+    z-index: -1;
+}
+
+/* waves styling */
+
+.custom-shape-divider-bottom-1603832039 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1603832039 svg {
+    position: relative;
+    display: block;
+    width: calc(195% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1603832039 .shape-fill {
+    fill: #f8f8f8;
+}
+
+/* main content styling */
+
+.main-s-content {
+    color: white;
+    width: 30rem;
+    height: 15rem;
+    position: absolute;
+    top: 14rem;
+    margin-left: 5rem;
+}
+
+.main-s-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-s-content p {
+    font-size: 0.8rem;
+}
+
+.main-s-content-action {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.main-s-content-action button {
+    margin-right: 0.5rem;
+    border-radius: 30px;
+    border: none;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: #4487FF;
+    cursor: pointer;
+}
+
+
+.main-s-round {
+    width: 20rem;
+    height: 20rem;
+    background-color: #FFE530;
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    top: 15rem;
+    right: 4rem;
+    z-index: 1;
+}
+
+.main-s-dog {
+    width: 15rem;
+    height: 27rem;
+    background-image: url(../img/dog2.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+    position: absolute;
+    right: 6rem;
+    top: 7rem;
+}
+
+/* Service section styles */
+
+.service-section-content {
+    width: 30rem;
+    height: 15rem;
+    top: 8rem;
+    position: relative;
+    margin-left: 5rem;
+}
+
+.service-section-content h2 {
+    color: #ff6752;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-section-content h4 {
+    color: gray;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-section-content h3 {
+    color: #ff6752;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.service-section-zip {
+    border-radius: 30px;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0.2px 0.2px 4px 0.5px #888888;
+    width: 11rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.service-section-zip p {
+    color: gray;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.service-section-zip-b {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #ff6752;
+    border-radius: 20px;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.service-section-zip-b span {
+    background-color: white;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    width: 1.2rem;
+    height: 0.5rem;
+}
+
+/* styles of service section squares */
+
+.wrapper-square {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.service-section-square-container {
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 44rem;
+    right: 10rem;
+}
+
+.s-s-s {
+    width: 13rem;
+    height: 13rem;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0.2px 0.2px 4px 0.5px #888888;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-s-s img {
+    width: 40%;
+    height: 40%;
+    margin-bottom: 2.5rem;
+}
+
+.s-s-s p {
+    color: gray;
+}
+
+/* waves under service section */
+
+.wrapper {
+    width: 100%;
+    height: 95vh;
+}
+
+.service-section-waves-container{
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    background-color: #3060B5;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1603833314 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1603833314 svg {
+    position: relative;
+    display: block;
+    width: calc(243% + 1.3px);
+    height: 398px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1603833314 .shape-fill {
+    fill: #f8f8f8;
+}
+
+/* second part of waves under section */
+
+.custom-shape-divider-bottom-1603836595 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1603836595 svg {
+    position: relative;
+    display: block;
+    width: calc(185% + 1.3px);
+    height: 180px;
+}
+
+.custom-shape-divider-bottom-1603836595 .shape-fill {
+    fill: #f8f8f8;
+}
+
+/* costumer says section */
+
+.costumer-says-section {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.costumer-says-section h3 {
+    color: #ff6752;
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+
+/* costumer says cards */
+
+.costumer-says-cards-container {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.costumer-says-cards {
+    width: 35%;
+    height: 15rem;
+    background-color: #ff6752;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.costumer-says-cards img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.costumer-says-cards p {
+    margin: 1.5rem 3rem;
+    font-size: 0.6rem;
+    color: #F8F8F8;
+}
+
+.costumer-says-cards h4 {
+    color: #F8F8F8;
+}
+
+.card-slider-btn {
+    width: 2rem;
+    height: 2rem;
+    background-color: #FF6752;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card-slider-btn span {
+    background-color: white;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+#left-btn {
+    transform: rotate(180deg);
+}
+
+#card-middle {
+    background-color: #3060B5;
+    width: 30rem;
+    height: 20rem;
+    position: absolute;
+    font-size: 1.2rem;
+}
+
+#card-middle p {
+    font-size: 1rem;
+}
+
+/* how it works section style */
+
+.how-it-works-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.how-it-works-circle-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+}
+
+.how-it-works-circle {
+    background-color: #FFE530;
+    height: 50rem;
+    width: 50rem;
+    clip-path: circle(50.1% at 94% 50%);
+    position: relative;
+}
+
+.how-it-works-circle-wrapper-small {
+    width: 100%;
+    display: flex;
+}
+
+.how-it-works-circle-small {
+    background-color: #FFE530;
+    height: 10rem;
+    width: 10rem;
+}
+
+/* how it works squares */
+
+.how-it-works-squares-container {
+    width: 29rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/streger.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.how-it-works-squares {
+    width: 10rem;
+    height: 10rem;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0.2px 0.2px 4px 0.5px #888888;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-works-squares:nth-child(2) {
+    align-self: flex-end;
+}
+
+.how-it-works-squares img {
+    width: 40%;
+    height: 40%;
+    margin-bottom: 2.5rem;
+}
+
+.how-it-works-squares p {
+    color: gray;
+}
+
+/* join now section */
+
+.join-now-section {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+}
+
+.join-now-section-wrapper {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+
+.join-now-section-circle {
+    width: 15rem;
+    height: 15rem;
+    background-color: #FFE530;
+    clip-path: circle(47.8% at 0 50%);
+    position: relative;
+}
+
+/* join now section content */
+
+.join-now-content-container {
+    width: 65%;
+    height: 20rem;
+    background-color: #3060B5;
+    margin-top: 7rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.join-now-content-circle {
+    background-image: url(../img/smilingdog.png);
+    background-position: center;
+    background-size: cover;
+    height: 17rem;
+    width: 17rem;
+}
+
+.join-now-content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.join-now-content-text h3 {
+    font-size: 2rem;
+    color: #FFE530;
+    margin-bottom: 1.5rem;
+}
+
+.join-now-content-text p {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.join-now-content-text button {
+    color: #FF6752;
+    background-color: white;
+    border: none;
+    width: 5rem;
+    padding: 0.3rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* seen on section style */
+
+.seen-on-section {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 2rem;
+}
+
+.seen-on-section p {
+    color: #888888;
+    text-align: center;
+}
+
+.seen-on-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* footer style section  */
+
+.footer-section {
+    width: 100%;
+    height: 40vh;
+    background-color: #ff6752;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.custom-shape-divider-top-1603893100 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1603893100 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 45px;
+}
+
+.custom-shape-divider-top-1603893100 .shape-fill {
+    fill: #f8f8f8;
+}
+
+.footer-section-links {
+    width: 10rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.footer-section-links h3 {
+    color: #FFE530;
+    font-size: 1.2rem;
+}
+
+.footer-section-newsletter h3 {
+    color: #FFE530;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-section-newsletter p {
+    color: white;
+}
+
+.footer-section-zip {
+    border-radius: 30px;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0.2px 0.2px 4px 0.5px #888888;
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.footer-section-zip p {
+    color: gray;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.footer-section-zip-b {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #ff6752;
+    border-radius: 20px;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-section-zip-b span {
+    background-color: white;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    width: 1.2rem;
+    height: 0.5rem;
+}
